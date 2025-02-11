@@ -180,11 +180,11 @@ typedef struct {
  * Intentionally modeled after sensors.h in the Android API:
  * https://github.com/android/platform_hardware_libhardware/blob/master/include/hardware/sensors.h
  */
-class Adafruit_Sensor {
+class sensor_unified {
 public:
     // Constructor(s)
-    Adafruit_Sensor() {}
-    virtual ~Adafruit_Sensor() {}
+    sensor_unified() {}
+    virtual ~sensor_unified() {}
 
     // These must be defined by the subclass
 

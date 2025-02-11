@@ -1,14 +1,14 @@
 //
 // Created by raphael on 1/26/25.
 //
-#include "Adafruit_Sensor.h"
+#include "sensor_unified.h"
 
 /**************************************************************************/
 /*!
     @brief  Prints sensor information to serial console
 */
 /**************************************************************************/
-void Adafruit_Sensor::printSensorDetails(void) {
+void sensor_unified::printSensorDetails(void) {
     sensor_t sensor;
     getSensor(&sensor);
     Serial.println(F("------------------------------------"));
